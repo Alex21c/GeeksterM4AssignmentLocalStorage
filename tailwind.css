@@ -44,7 +44,7 @@ html,
   -moz-tab-size: 4;
   /* 3 */
   -o-tab-size: 4;
-  tab-size: 4;
+     tab-size: 4;
   /* 3 */
   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
@@ -89,7 +89,7 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 
 abbr:where([title]) {
   -webkit-text-decoration: underline dotted;
-  text-decoration: underline dotted;
+          text-decoration: underline dotted;
 }
 
 /*
@@ -560,6 +560,10 @@ video {
   z-index: 40;
 }
 
+.m-1 {
+  margin: 0.25rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -636,6 +640,12 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-slate-500 {
+  --tw-gradient-from: #64748b var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(100 116 139 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .from-slate-700 {
   --tw-gradient-from: #334155 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(51 65 85 / 0) var(--tw-gradient-to-position);
@@ -644,6 +654,10 @@ video {
 
 .to-green-500 {
   --tw-gradient-to: #22c55e var(--tw-gradient-to-position);
+}
+
+.to-slate-300 {
+  --tw-gradient-to: #cbd5e1 var(--tw-gradient-to-position);
 }
 
 .to-slate-600 {
@@ -800,3 +814,71 @@ div#wrapperMoonAndSun{
   left: 0.5rem;
 }
 
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 838px){
+  form#formForAutoSaveData{
+    width:40rem;
+  }
+}
+
+@media screen and (max-width: 672px){
+  form#formForAutoSaveData{
+    width:30rem;
+    height: 60vh;
+  }
+
+  h1 span.assignmentTitle {
+    font-size: 2.3rem;
+  }
+
+  h1 a.geeksterPromo{
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 502px){
+  form#formForAutoSaveData{
+    width:25rem;
+  }
+
+  h1 span.assignmentTitle {
+    font-size: 2rem;
+  }
+
+  h1 a.geeksterPromo{
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 428px){
+  form#formForAutoSaveData{
+    width:20rem;
+  }
+
+  div.wrapperH2AndNightModeBtn{
+    display: flex;
+    flex-direction: column;
+    height: -moz-fit-content;
+    height: fit-content;
+    gap: 1rem;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 346px){
+  form#formForAutoSaveData{
+    width:18rem;
+  }
+}
+
+.focus\:ring:focus {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.focus\:ring-green-700:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(21 128 61 / var(--tw-ring-opacity));
+}
