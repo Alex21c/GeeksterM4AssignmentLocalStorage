@@ -3,6 +3,7 @@
 <!-- ![](mvcDiagram.png) -->
 
 # Tech. Stack Used:
++ [Web Storage API || HTML5 Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
 + [MVC Framework](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
 + [HTML5](https://en.wikipedia.org/wiki/HTML5)
 + [CSS3](https://en.wikipedia.org/wiki/CSS)
