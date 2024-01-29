@@ -4,7 +4,7 @@ class View{
   constructor(model){
     this.styleFortextArea={
       nightMode: "from-slate-700 to-slate-600 text-zinc-50",
-      dayMode: "from-slate-500 to-slate-300 text-black-900"
+      dayMode: "from-white-200 to-white-100 text-black-900"
     };
 
     this.model = model;     
