@@ -1,4 +1,6 @@
 # Assignmnent, Local Storage (Geekster MERN Stack Module 4)
+Local Storage is a part of HTML5 Web Storage API, Completed Geekster assignment for local storage, user data types on the form will be there, no matter user refresh the browser or closes the browser, its there !
+
 ![](thumbnail.png)
 <!-- ![](mvcDiagram.png) -->
 
