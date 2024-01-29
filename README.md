@@ -11,7 +11,7 @@ Completed Geekster Assignment for local storage, Whatever data user types in the
 + [HTML5](https://en.wikipedia.org/wiki/HTML5)
 + [CSS3](https://en.wikipedia.org/wiki/CSS)
 + [Tailwind CSS](https://tailwindcss.com/)
-+ [JavaScript ES6](https://en.wikipedia.org/wiki/JavaScript)
++ [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 + [Font Awesome](https://fontawesome.com/icons)
 + [Google Fonts](https://fonts.google.com/)
 + [Git](https://en.wikipedia.org/wiki/Git)
